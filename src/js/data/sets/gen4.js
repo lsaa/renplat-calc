@@ -84,12 +84,14 @@ var SETDEX_DPP = {
             ]
         }
     },
+
     "Nosepass": {
-        "Roark #1": {
+        "Leader Roark": {
             "level": 15,
             "item": "Smooth Rock",
             "ability": "Sturdy",
             "nature": "Modest",
+            "ivs": {"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},
             "moves": [
                 "Stealth Rock",
                 "Thunder Wave",
@@ -100,10 +102,11 @@ var SETDEX_DPP = {
     },
 
     "Bonsly": {
-        "Roark #2": {
+        "Leader Roark": {
             "level": 15,
             "item": "Rindo Berry",
             "nature": "Impish",
+            "ivs": {"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},
             "ability": "Rock Head",
             "moves": [
                 "Stealth Rock",
@@ -115,10 +118,11 @@ var SETDEX_DPP = {
     },
 
     "Geodude": {
-        "Roark #3": {
+        "Leader Roark": {
             "level": 15,
             "item": "Expert Belt",
             "nature": "Adamant",
+            "ivs": {"hp":29,"at":29,"df":29,"sa":29,"sd":29,"sp":29},
             "ability": "Rock Head",
             "moves": [
                 "Bulldoze",
@@ -130,10 +134,11 @@ var SETDEX_DPP = {
     },
 
     "Onix": {
-        "Roark #4": {
+        "Leader Roark": {
             "level": 15,
             "item": "Muscle Band",
             "nature": "Jolly",
+            "ivs": {"hp":29,"at":29,"df":29,"sa":29,"sd":29,"sp":29},
             "ability": "Rock Head",
             "moves": [
                 "Stealth Rock",
@@ -145,10 +150,11 @@ var SETDEX_DPP = {
     },
 
     "Larvitar": {
-        "Roark #5": {
+        "Leader Roark": {
             "level": 15,
             "item": "Flame Orb",
             "nature": "Jolly",
+            "ivs": {"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},
             "ability": "Guts",
             "moves": [
                 "Rock Tomb",
@@ -160,17 +166,63 @@ var SETDEX_DPP = {
     },
 
     "Cranidos": {
-        "Roark #6": {
+        "Leader Roark": {
             "level": 16,
             "item": "Sitrus Berry",
             "nature": "Hasty",
+            "ivs": {"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},
             "ability": "Rock Head",
             "moves": [
                 "Zen Headbutt",
                 "Rock Tomb",
-                "Thudner Punch",
+                "Thunder Punch",
                 "Scary Face"
             ]
         }
-    }
+    },
+
+    "Absol": {
+        "PKMN Trainer Riley": {
+            "level": 49,
+            "item": "Scope Lens",
+            "nature": "Relaxed",
+            "ability": "Super Luck",
+            "moves": [
+                "Night Slash",
+                "Psycho Cut",
+                "Megahorn",
+                "Play Rough"
+            ]
+        }
+    },
+
+    "Ursaring": {
+        "PKMN Trainer Riley": {
+            "item": "Flame Orb",
+            "ability": "Guts",
+            "level": 49,
+            "nature": "Naughty",
+            "moves": [
+                "Strength",
+                "Close Combat",
+                "Play Rough",
+                "Protect"
+            ]
+        }
+    },
+
+    "Lucario": {
+        "PKMN Trainer Riley": {
+            "item": "Life Orb",
+            "ability": "Adaptability",
+            "level": 50,
+            "nature": "Impish",
+            "moves": [
+                "High Jump Kick",
+                "Meteor Mash",
+                "Blaze Kick",
+                "Bullet Punch"
+            ]
+        }
+    },
 }
